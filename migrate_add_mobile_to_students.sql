@@ -1,0 +1,1 @@
+ALTER TABLE students ADD COLUMN mobile VARCHAR(20) NOT NULL AFTER name;
