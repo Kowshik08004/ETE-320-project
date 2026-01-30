@@ -69,7 +69,7 @@ Before you begin, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ETE-320-project.git
+git clone https://github.com/Kowshik08004/ETE-320-project.git
 cd ETE-320-project
 ```
 
@@ -285,8 +285,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or support, please contact:
-- **Email**: your.email@example.com
-- **Project Link**: [https://github.com/yourusername/ETE-320-project](https://github.com/yourusername/ETE-320-project)
+- **Email**: u2108004@cuet.ac.bd
+- **Project Link**: [https://github.com/Kowshik08004/ETE-320-project](https://github.com/Kowshik08004/ETE-320-project)
 
 ---
 

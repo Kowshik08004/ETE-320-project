@@ -80,7 +80,7 @@ Follow this checklist before pushing your project to GitHub:
 
 ```bash
 # Add GitHub remote
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+git remote add origin https://github.com/Kowshik08004/ETE-320-project.git
 
 # Push to GitHub
 git branch -M main

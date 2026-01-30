@@ -13,7 +13,7 @@ Get your RFID Attendance System up and running in 10 minutes!
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ETE-320-project.git
+git clone https://github.com/Kowshik08004/ETE-320-project.git
 cd ETE-320-project
 ```
 
@@ -51,7 +51,7 @@ Open browser → `http://localhost/ETE-320-project`
 
 **Default Login:**
 - Email: `admin@gmail.com`
-- Password: `admin`
+- Password: `123`
 
 ## What's Next?
 
