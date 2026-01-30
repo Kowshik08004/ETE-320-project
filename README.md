@@ -40,20 +40,7 @@ A comprehensive web-based attendance management system using RFID technology for
 
 ## 🏗️ System Architecture
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│   RFID      │─────▶│   Arduino    │─────▶│  Web Server │
-│   Tags      │      │   Reader     │      │   (PHP)     │
-└─────────────┘      └──────────────┘      └──────┬──────┘
-                                                   │
-                                                   ▼
-                                            ┌─────────────┐
-                                            │   MySQL     │
-                                            │  Database   │
-                                            └─────────────┘
-```
-
-![System Architecture Diagram](screenshots/system-architecture.png)
+![System Architecture Diagram](screenshots/sys_archi.png)
 
 ## 📋 Prerequisites
 
@@ -144,7 +131,7 @@ If you're using the physical RFID system:
 | RST       | D9          |
 | 3.3V      | 3.3V        |
 
-![RC522 Wiring Table](screenshots/rc522-wiring-table.png)
+![RC522 Wiring Table](screenshots/wiring.png)
 
 ### Upload Arduino Code
 
