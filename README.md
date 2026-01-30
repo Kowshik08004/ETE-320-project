@@ -53,6 +53,8 @@ A comprehensive web-based attendance management system using RFID technology for
                                             └─────────────┘
 ```
 
+![System Architecture Diagram](screenshots/system-architecture.png)
+
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -114,7 +116,7 @@ sudo chmod -R 755 /var/www/html/ETE-320-project
 2. Navigate to: `http://localhost/ETE-320-project`
 3. Login with default credentials:
    - **Email**: `admin@gmail.com`
-   - **Password**: `admin` (or check the SQL dump for the hashed password)
+   - **Password**: `123` (or check the SQL dump for the hashed password)
 
 > ⚠️ **Important**: Change the default admin password immediately after first login!
 
@@ -141,6 +143,8 @@ If you're using the physical RFID system:
 | GND       | GND         |
 | RST       | D9          |
 | 3.3V      | 3.3V        |
+
+![RC522 Wiring Table](screenshots/rc522-wiring-table.png)
 
 ### Upload Arduino Code
 
@@ -273,7 +277,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Kowshik Chowdhury** - [GitHub](https://github.com/Kowshik08004)
 
 ## 🙏 Acknowledgments
 
@@ -285,14 +289,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or support, please contact:
-- **Email**: u2108004@cuet.ac.bd
+- **Email**: u2108004@student.cuet.ac.bd
 - **Project Link**: [https://github.com/Kowshik08004/ETE-320-project](https://github.com/Kowshik08004/ETE-320-project)
 
 ---
 
 <div align="center">
-
-**Made with ❤️ for Education**
 
 ⭐ Star this repo if you find it helpful!
 
