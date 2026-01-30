@@ -1,0 +1,104 @@
+# Database Configuration
+connectDB.php
+dev_config.php
+
+# Environment files
+.env
+.env.local
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+error_log
+php_errors.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*-backup.*
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+desktop.ini
+$RECYCLE.BIN/
+
+# Cache and session files
+cache/
+sessions/
+tmp/
+
+# Uploaded files (if any)
+uploads/*.jpg
+uploads/*.png
+uploads/*.gif
+uploads/*.pdf
+!uploads/.gitkeep
+
+# Export files
+exports/*.xlsx
+exports/*.csv
+exports/*.pdf
+!exports/.gitkeep
+
+# Node modules (if using npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# PHPUnit and testing
+/phpunit.xml
+.phpunit.result.cache
+
+# Build files
+build/
+dist/
+
+# Database dumps (except the schema)
+*.sql
+!rfidattendance.sql
+
+# Sensitive information
+passwords.txt
+credentials.txt
+config.local.php
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Development files
+test_*.php
+debug_*.php
+diagnose.php
+dev_*.php
