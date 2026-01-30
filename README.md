@@ -105,9 +105,7 @@ sudo chmod -R 755 /var/www/html/ETE-320-project
    - **Email**: `admin@gmail.com`
    - **Password**: `123` (or check the SQL dump for the hashed password)
 
-> ⚠️ **Important**: Change the default admin password immediately after first login!
-
-## 🔌 Hardware Setup (Optional)
+## 🔌 Hardware Setup
 
 ### Components Needed
 - ESP32-wroom-32
