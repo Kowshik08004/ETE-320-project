@@ -109,34 +109,23 @@ sudo chmod -R 755 /var/www/html/ETE-320-project
 
 ## 🔌 Hardware Setup (Optional)
 
-If you're using the physical RFID system:
-
 ### Components Needed
-- Arduino Uno/Nano
-- RC522 RFID Reader Module
-- RFID Cards/Tags
-- Connecting Wires
-- USB Cable
+- ESP32-wroom-32
+- MFRC522 RFID Reader Module
+- RFID Cards
+- DS3231 RTC
+- 16x2 LCD display
+- Buzzer
+- 100k Trimmerpot
 
 ### Wiring Diagram
 
-| RC522 Pin | Arduino Pin |
-|-----------|-------------|
-| SDA       | D10         |
-| SCK       | D13         |
-| MOSI      | D11         |
-| MISO      | D12         |
-| IRQ       | Not Connected |
-| GND       | GND         |
-| RST       | D9          |
-| 3.3V      | 3.3V        |
-
-![RC522 Wiring Table](screenshots/wiring.png)
+![Wiring Table](screenshots/wiring.png)
 
 ### Upload Arduino Code
 
 1. Open Arduino IDE
-2. Install required library: **MFRC522** (Tools → Manage Libraries → Search "MFRC522")
+2. Install required library: **SPI, Wire, MFRC522, RTClib, LiquidCrystal, WiFi, HTTPClient** (Tools → Manage Libraries → Search "MFRC522")
 3. Open `RFID/RFID.ino`
 4. Select your board and port
 5. Upload the sketch
@@ -147,14 +136,14 @@ If you're using the physical RFID system:
 
 1. **Add Students**
    - Navigate to "Manage Users"
-   - Click "Add New Student"
-   - Enter student details and RFID card number
-   - Save
+   - Scan an unregistered card. It will appear in the list.
+   - select it (Click on the card). RFID card will be automatically filled. Enter student details & click Register Student.
 
 2. **Create Course Sessions**
    - Go to "Course Sessions"
-   - Select course, room, and time
-   - Create session (manual or automatic)
+   - Create session (manual)
+   - Fill all the necessary info. 
+   - Click create session
 
 3. **View Attendance**
    - Navigate to "Attendance View"
